@@ -15,24 +15,12 @@
         <div class="container">
             <div class="form_wrapper">
                 <h2 class="title">
-                    Crea il tuo account
+                    Hai già un account?
                 </h2>
-                <form action="register.php" method="POST">
-                    <div class="input_wrapper">
-                        <label for="nome">
-                            Inserisci il nome
-                        </label>
-                        <input type="text" name="nome" placeholder="Mario" id="nome" class="input_text">
-                    </div>
-                    <div class="input_wrapper">
-                        <label for="cognome">
-                            Inserisci il cognome
-                        </label>
-                        <input type="text" name="cognome" placeholder="Rossi" id="cognome" class="input_text">
-                    </div>
+                <form action="login.php" method="POST">
                     <div class="input_wrapper">
                         <label for="email">
-                            Inserisci l'email
+                            Inserisci l'e-mail
                         </label>
                         <input type="email" name="email" placeholder="name@example.com" id="email" class="input_text">
                     </div>
@@ -43,10 +31,10 @@
                         <input type="password" name="password" placeholder="Scrivila qui" id="password" class="input_text">
                     </div>
                     <button type="submit" class="btn_submit">
-                        Registrati
+                        Accedi
                     </button>
-                    <a href="/edusogno/loginPage.php" class="form_link">
-                        Hai già un account? <span class="evidence">Accedi</span>
+                    <a href="/edusogno/index.php" class="form_link">
+                        Non hai ancora un profilo? <span class="evidence">Registrati</span>
                     </a>
                 </form>
             </div>
