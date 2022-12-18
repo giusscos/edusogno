@@ -65,6 +65,13 @@ body {
     transform: translateX(-50%);
 }
 
+.error_validation{
+    display: block;
+    color: red;
+    font-weight: 700;
+    text-align: center;
+}
+
 /* header */
 .main_header {
     background-color: #fff;
@@ -74,6 +81,7 @@ body {
 }
 
 .logo_wrapper{
+    width: fit-content;
     position: relative;
 }
 
@@ -121,7 +129,11 @@ form {
     font-weight: bold;
 }
 
-.input_wrapper>.input_text {
+.input_relative{
+    position: relative;
+}
+
+.input_wrapper .input_text {
     opacity: 0.5;
     font-size: 1.5rem;
     padding: 0.3rem 0;
@@ -131,6 +143,13 @@ form {
 .input_text:focus {
     opacity: 1;
     outline: none;
+}
+
+.input_icon{
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
 }
 
 .btn_submit {
@@ -175,7 +194,7 @@ form {
 
 .card{
     width: 350px;
-    padding: 2rem 1rem;
+    padding: 2rem 1.25rem;
     border-radius: 1.3rem;
     background-color: #fff;
     border: 1px solid #134077;

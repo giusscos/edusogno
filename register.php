@@ -17,7 +17,7 @@
             <h2 class="title">
                 Crea il tuo account
             </h2>
-            <form action="newUser.php" method="POST">
+            <form action="new-user.php" method="POST">
                 <div class="input_wrapper">
                     <label for="nome">
                         Inserisci il nome
@@ -40,7 +40,10 @@
                     <label for="password">
                         Inserisci la password
                     </label>
-                    <input type="password" name="password" placeholder="Scrivila qui" id="password" class="input_text">
+                    <div class="input_relative">
+                        <input type="password" name="password" placeholder="Scrivila qui" id="password" class="input_text">
+                        <?php include 'eyeIcon.php'; ?>
+                    </div>
                 </div>
                 <button type="submit" class="btn_submit">
                     Registrati

@@ -28,7 +28,10 @@
                     <label for="password">
                         Inserisci la password
                     </label>
-                    <input type="password" name="password" placeholder="Scrivila qui" id="password" class="input_text">
+                    <div class="input_relative">
+                        <input type="password" name="password" placeholder="Scrivila qui" id="password" class="input_text">
+                        <?php include 'eyeIcon.php'; ?>
+                    </div>
                 </div>
                 <button type="submit" class="btn_submit">
                     Accedi
