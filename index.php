@@ -12,46 +12,32 @@
 <body>
     <?php include 'header.php'; ?>
     <main class="content">
-        <div class="container">
-            <div class="form_wrapper">
-                <h2 class="title">
-                    Crea il tuo account
-                </h2>
-                <form action="register.php" method="POST">
-                    <div class="input_wrapper">
-                        <label for="nome">
-                            Inserisci il nome
-                        </label>
-                        <input type="text" name="nome" placeholder="Mario" id="nome" class="input_text">
-                    </div>
-                    <div class="input_wrapper">
-                        <label for="cognome">
-                            Inserisci il cognome
-                        </label>
-                        <input type="text" name="cognome" placeholder="Rossi" id="cognome" class="input_text">
-                    </div>
-                    <div class="input_wrapper">
-                        <label for="email">
-                            Inserisci l'email
-                        </label>
-                        <input type="email" name="email" placeholder="name@example.com" id="email" class="input_text">
-                    </div>
-                    <div class="input_wrapper">
-                        <label for="password">
-                            Inserisci la password
-                        </label>
-                        <input type="password" name="password" placeholder="Scrivila qui" id="password" class="input_text">
-                    </div>
-                    <button type="submit" class="btn_submit">
-                        Registrati
-                    </button>
-                    <a href="/edusogno/loginPage.php" class="form_link">
-                        Hai già un account? <span class="evidence">Accedi</span>
-                    </a>
-                </form>
-            </div>
-        </div>
         <?php include 'decoration.php'; ?>
+        <div class="form_wrapper">
+            <h2 class="title">
+                Hai già un account?
+            </h2>
+            <form action="home.php" method="POST">
+                <div class="input_wrapper">
+                    <label for="email">
+                        Inserisci l'e-mail
+                    </label>
+                    <input type="email" name="email" placeholder="name@example.com" id="email" class="input_text">
+                </div>
+                <div class="input_wrapper">
+                    <label for="password">
+                        Inserisci la password
+                    </label>
+                    <input type="password" name="password" placeholder="Scrivila qui" id="password" class="input_text">
+                </div>
+                <button type="submit" class="btn_submit">
+                    Accedi
+                </button>
+                <a href="/edusogno/register.php" class="form_link" title="Vai alla pagina di registrazione">
+                    Non hai ancora un profilo? <span class="evidence">Registrati</span>
+                </a>
+            </form>
+        </div>
     </main>
 </body>
 
