@@ -17,7 +17,7 @@
             <h2 class="title">
                 Crea il tuo account
             </h2>
-            <form action="new-user.php" method="POST">
+            <form action="new-user.php" method="POST" id='reg'>
                 <div class="input_wrapper">
                     <label for="nome">
                         Inserisci il nome
@@ -45,7 +45,7 @@
                         <?php include 'eyeIcon.php'; ?>
                     </div>
                 </div>
-                <button type="submit" class="btn_submit">
+                <button type="submit" id="submitBtn" class="btn_submit">
                     Registrati
                 </button>
                 <a href="/edusogno/" class="form_link" title="Vai alla pagina di accesso">
@@ -54,6 +54,7 @@
             </form>
         </div>
     </main>
+    <script src="./assets/js/script.js"></script>
 </body>
 
 </html>

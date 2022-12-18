@@ -17,7 +17,7 @@
             <h2 class="title">
                 Hai già un account?
             </h2>
-            <form action="home.php" method="POST">
+            <form action="home.php" method="POST" id="log">
                 <div class="input_wrapper">
                     <label for="email">
                         Inserisci l'e-mail
@@ -33,7 +33,7 @@
                         <?php include 'eyeIcon.php'; ?>
                     </div>
                 </div>
-                <button type="submit" class="btn_submit">
+                <button type="submit" id="submitBtn" class="btn_submit">
                     Accedi
                 </button>
                 <a href="/edusogno/register.php" class="form_link" title="Vai alla pagina di registrazione">
@@ -42,6 +42,7 @@
             </form>
         </div>
     </main>
+    <script src="./assets/js/script.js"></script>
 </body>
 
 </html>

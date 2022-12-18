@@ -78,10 +78,10 @@
                         Qualcosa &eacute; andato storto😢
                     </h2>
                     <a href="/edusogno/" class="form_link" title="Torna alla pagina di login">
-                        Riprova ad effettuare l'Accesso
+                        Riprova ad effettuare <span class="evidence">l'Accesso</span>
                     </a>
                     <a href="/edusogno/register.php" class="form_link" title="Vai alla pagina di registrazione">
-                        Non hai ancora un account? Registrati
+                        Non hai ancora un account? <span class="evidence">Registrati</span>
                     </a>
                 </div>
             <?php
@@ -93,10 +93,10 @@
                     Qualcosa &eacute; andato storto😢
                 </h2>
                 <a href="/edusogno/" class="form_link" title="Torna alla pagina di login">
-                    Riprova ad effettuare l'Accesso
+                    Riprova ad effettuare <span class="evidence">l'Accesso</span>
                 </a>
                 <a href="/edusogno/register.php" class="form_link" title="Vai alla pagina di registrazione">
-                    Non hai ancora un account? Registrati
+                    Non hai ancora un account? <span class="evidence">Registrati</span>
                 </a>
             </div>
         <?php
