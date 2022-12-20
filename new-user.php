@@ -22,6 +22,7 @@ if (!empty($email)) {
         if ($conn->query($sql) === TRUE) {
             $name = $password = $email = $password = $cryptoPassword = '';
             echo 'Success';
+            header("Location: index.php");
         } else {
             echo "Error: " . $sql . "<br>" . $conn->error;
         }
