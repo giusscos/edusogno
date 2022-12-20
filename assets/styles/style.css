@@ -216,3 +216,30 @@ form {
 .card .btn_submit{
     margin: 0;
 }
+
+/* password */
+
+.form_password{
+    background-color: transparent;
+    border: 0;
+    width: 100%;
+}
+
+.form_password .form_link {
+    margin: 0 auto;
+    font-size: 1rem;
+}
+
+.success,
+.error{
+    padding: 1rem 2rem;
+    width: 100%;
+    text-align: center;
+}
+
+.success{
+    color: green;
+}
+.error{
+    color: red;
+}

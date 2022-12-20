@@ -3,14 +3,13 @@ include 'db.php';
 
 $name = $password = $email = $password = $cryptoPassword = '';
 
-
 $name = $_POST['nome'];
 $surname = $_POST['cognome'];
 $email = $_POST['email'];
 $password = $_POST['password'];
 $cryptoPassword = md5($password);
 
-if ($email !== '') {
+if (!empty($email)) {
     $is_unique = "SELECT * FROM `utenti` 
             WHERE `email` = '$email'";
 
